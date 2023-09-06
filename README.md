@@ -24,4 +24,4 @@ return Obx(
     );
 ```
 
-![alt text](https://github.com/lekgaetonic/number_to_word_thai/blob/master/Screen_recording_20230905_084453.mp4?raw=true)
+![alt text](https://github.com/lekgaetonic/number_to_word_thai/blob/master/Screen_recording_20230905_084453.gif?raw=true)
