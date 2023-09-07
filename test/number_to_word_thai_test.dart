@@ -7,5 +7,6 @@ void main() {
     expect(NumberToWordThai.convert(9), "เก้า");
     expect(NumberToWordThai.convert(10), "สิบ");
     expect(NumberToWordThai.convert(11), "สิบเอ็ด");
+    expect(NumberToWordThai.convert(21), "ยี่สิบเอ็ด");
   });
 }

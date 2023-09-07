@@ -7,6 +7,7 @@ class NumberToWordThai {
   NumberToWordThai._();
 
   static const String _zero = 'ศูนย์'; //0
+  static const String _ed = 'เอ็ด'; //1
   static const String _hundred = 'ร้อย'; //100
   static const String _thousand = 'พัน'; //1000
   static const String _tenthousand = 'หมื่น'; //10 000
@@ -63,6 +64,9 @@ class NumberToWordThai {
       number = (number ~/ 100).toInt();
     } else {
       soFar = _numNames[number % 10];
+      if (soFar == _numNames[1]) {
+        soFar = _ed;
+      }
       number = (number ~/ 10).toInt();
       soFar = _tensNames[number % 10] + soFar;
       number = (number ~/ 10).toInt();
